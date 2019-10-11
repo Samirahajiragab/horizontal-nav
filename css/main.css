@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  font:notmal 100%/1.5 san-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #79756f;
+
+}
+
+h1 {
+  color: #fff;
+}
+
+nav li {
+  display: inline;
+}
+
+nava a {
+  display: inline-block;
+  width 6em;
+  padding: .6em;
+  background-color: #713837;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
