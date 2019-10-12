@@ -17,7 +17,7 @@ header {
   border-top: 5px solid #595652;
 }
 
-body {
+head {
   padding: 0;
   margin: 0;
 }
@@ -33,7 +33,7 @@ h1 {
   text-align: center;
   margin: .3em .3em auto;
   padding: 0;
-  font-family: "Bevan", sans-serif;
+  font-family: Bevan, sans-serif;
 }
 
 nav li {
