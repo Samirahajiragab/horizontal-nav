@@ -4,69 +4,20 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Bevan&display=swap" rel="stylesheet">
   </head>
   <body>
+  <header>
     <h1>Planets</h1>
     <nav>
       <ul>
-        <li><a href="#"></a>Introduction</li>
-        <li><a href="#"></a>Terrestrial planets</li>
-        <li><a href="#"></a>Mars</li>
-        <li><a href="#"></a>Venus</li>
+        <li><a href="#"> Introduction</a></li>
+        <li><a href="#">Terrestrial planets</a></li>
+        <li><a href="#">Mars</a></li>
+        <li class="vanus"><a href="#">Venus</a></li>
       </ul>
     </nav>
-
+  </header>
   </body>
 </html>
-
-/*------notes----*/
-repo: 'horizontal-nav'
-canvasCourse: 'web-dev-1'
-
-inherit:
-  - naming-restrict-live
-  - git-2
-  - html
-  - css
-  - box-sizing
-  - body-margin-0
-  - google-fonts
-  - nav-hover
-
-html:
-  - path: 'index.html'
-    has:
-      - ['link[href*="Bevan"]', 'The Google Font, `Bevan`, is missing']
-      - 'header'
-      - 'header h1'
-      - 'header nav'
-      - 'header nav ul'
-      - 'header nav ul li a'
-    search:
-      - 'Planets'
-      - 'Introduction'
-      - 'Terrestrial planets'
-      - 'Mars'
-      - 'Venus'
-
-css:
-  - path: 'css/main.css'
-    has:
-      - ['h1', 'font-family', 'Bevan, serif']
-    search:
-      - 'margin'
-      - 'padding'
-      - 'background-color'
-      - 'list-style-type'
-      - 'display'
-      - 'inline-block'
-      - 'border'
-      - 'border-radius'
-      - '#79756f'
-      - '#595652'
-      - '#713837'
-      - '#f33'
-
-screenshots:
-  - path: 'index.html'
-    sizes: [400, 650]
