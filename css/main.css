@@ -2,11 +2,8 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: #dbd6cf;
-/**  border-bottom: 5px solid #595652;
-  border-top: 5px solid #595652;**/
   font-family: sans-serif;
-  padding:
-}Ω
+}
 
 *, *::before, *::after {
   box-sizing: inherit;
