@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-header{
+header {
   background-color: #79756f;
   text-align: center;
   color: #fff;
@@ -33,7 +33,7 @@ h1 {
   text-align: center;
   margin: .3em .3em auto;
   padding: 0;
-  font-family: 'Bevan',sans-serif;
+  font-family: "Bevan", sans-serif;
 }
 
 nav li {
