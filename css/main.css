@@ -16,10 +16,7 @@ header {
   border-bottom: 5px solid #595652;
   border-top: 5px solid #595652;
 }
-head {
-  padding: 0;
-  margin: 0;
-}
+
 body {
   padding: 0;
   margin: 0;
@@ -32,12 +29,15 @@ nav ul {
 }
 
 h1 {
+  font-family: baven, serif;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 2rem;
   color: #fff;
   text-align: center;
   margin: .3em .3em auto;
   padding: 0;
-  font-family: baven, cursive;
-  font-weight: bold;
 }
 
 nav li {
